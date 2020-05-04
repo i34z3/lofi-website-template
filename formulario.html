@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Inscreva-se</title>
+        <style type="text/css">
+        .form1 ul li{
+            display: inline;
+        }
+        </style>
+	</head>
+		
+		<form metod="poster">
+            <fieldset id="usuario">
+                <p><legend>Dados do Participante</legend></p>
+                <p><label for="cNome">Nome Completo: </label>
+                    <input type="text" name="tNome" id="cNome" size="30"</p>
+                <p><label for="cRG">RG: </label>
+                    <input type="text" name="tRG" id="cRG" size="10" maxlength="9">
+                <label for="cEmail">E-mail: </label>
+                    <input type="email" name="tEmail" id="cEmail" size="30"></p>
+                <p><label for="cCurso">Curso: </label>
+                        <input type="text" name="tCurso" id="cCurso" size="10">
+                <label for="cInstituicao">Instituição: </label> 
+                        <input type="text" name="tInstituicao" id="cInstituicao" size="30"></p>
+
+                <p><legend>Telefone para Contato</legend>
+                <label for="cCelular">Celular: </label>
+                    <input type="text" name="tDDD" id="cDDD" size="1" maxlength="3">
+                    <input type="text" name="tCelular" id="cCelular" size="20" maxlength="9">
+                <label for="cResidencia">Residencia: </label>
+                    <input type="text" name="tDDD2" id="cDDD2" size="1" maxlength="3">
+                    <input type="text" name="tResidencia" id="cResidencia" size="20" maxlength="8"></p>
+            </fieldset>
+		</form>
+	</body>
+</html>
